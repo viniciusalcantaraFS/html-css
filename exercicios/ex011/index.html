@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes o8u simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Inserindo um audio no meu site</h2>
+
+    <p>Para inserir um áudio no site, utiliza-se a tag &lt;audio&gt; juntamente com seus atributos</p>
+
+    <p>Trecho da Minha música autoral:</p>
+
+    <audio preload="auto" controls autoplay loop>
+        <source src="audio/sente minha falta.mp3" type="audio/mpeg">
+    </audio><br>
+
+    <p>Inserindo vÍdeo do youtube com a tage &lt;iframe&gt;</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4OZYsFl-J9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>

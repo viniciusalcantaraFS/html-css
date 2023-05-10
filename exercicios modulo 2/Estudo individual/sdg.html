@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo caixas</title>
+
+    <style>
+
+        aside {
+
+            background-color: orange;
+            display: block;
+            min-height: 1px;
+            /*float: left;*/
+            padding-right: 24px;
+            padding-left: 24px;
+           /*width: 500px;*/
+
+        }
+
+        aside.azul {
+            background-color: aqua;
+            display: block;
+            min-height: 1px;
+            /*float: left;*/
+            padding-right: 24px;
+            padding-left: 24px;
+            
+            
+        }
+
+        div {
+            display: inline-block;
+            min-height: 1px;
+            /*float: left;*/
+            padding-right: 24px;
+            padding-left: 24px;
+            width: 400px;
+            
+        }
+
+        aside h1 {
+            margin: 0;
+        }
+
+        .espaço {
+            display: inline;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <aside>
+            <h1>caixa 1</h1>
+        </aside>
+
+    <aside class="azul">
+            <h1>caixa 2</h1>
+    </aside>
+        
+    </div>
+
+    <h1 class="espaço">espaço</h1>
+
+    <div>
+
+        <aside>
+
+            <h1>caixa 3</h1>
+
+        </aside>
+
+        <aside class="azul">
+
+            <h1>caixa 4</h1>
+
+        </aside>
+        
+    </div>
+
+    <h1 class="espaço">espaço</h1>
+</body>
+</html>

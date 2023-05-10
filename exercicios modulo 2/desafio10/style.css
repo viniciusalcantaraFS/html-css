@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: ameba;
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: none;
+}
+/** {
+    height: 100%;
+}*/
+body {
+    font-family: arial;
+    background-color: rgb(141, 172, 153);
+    background-attachment: fixed;
+    margin:0;
+    
+}
+
+    
+    .titulosmain {
+        font-family: ameba;
+    }
+    
+    
+header {
+    height: 168px;
+    background-image: linear-gradient(to bottom, rgb(0, 197, 92), rgb(0, 137, 64));
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px 10px 10px 10px;
+    min-width: 200px;
+    
+
+}
+header > h1 {
+    margin-top: 0px;
+    font-family: Bebas neue;
+    font-weight: normal;
+}
+header > nav {
+    text-align: left;
+    margin-top: 53px;
+}
+ nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    
+}
+
+nav > a:hover {
+    background-color: rgb(0, 72, 20);
+    transition: 0.1s;
+    transition-property: background-color;
+    border-radius: 2px;
+}
+
+h2 {
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, rgba(78, 154, 103, 0.607), rgba(0, 128, 0, 0));
+
+}
+
+main {
+    color: rgb(139, 139, 139);
+    
+    margin: auto;
+    margin-top: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    max-width: 720px;
+    min-width: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.146);
+    
+}
+section > h1 {
+    margin-top: 0;
+}
+article > p {
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+p > a {
+    color: rgb(46, 59, 46);
+    padding: 2px 4px;
+    background-color: rgb(168, 199, 173);
+    border-radius: 2px;
+    ;
+    font-weight: bold;
+    
+}
+p > a::after {
+    content: ' 🔗';
+}
+#android {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+#cropdroids {
+    width: 1000px;
+}
+#irina {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: block;
+}
+
+#bugado {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+h3 {
+    background-color: black;
+    color: wheat;
+    padding: 4px;
+    margin: 0;
+    border-radius:4px 4px 0 0;
+
+}
+
+#aside {
+    background-color: rgba(78, 154, 103, 0.607);
+    max-width: 700;
+    margin: 0;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius:0 0 4px 4px;
+}
+aside > p {
+    margin-top: 0;
+    
+}
+
+strong {
+    color: greenyellow
+}
+
+

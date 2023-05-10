@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando pseudos</title>
+    <style>
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited {
+            font-weight: lighter;
+            text-decoration: overline;
+            color: rgb(255, 0, 191);
+            font-size: 4em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a:hover {
+            color: green;
+            text-decoration: overline;
+        }
+
+        .persdois:hover {
+            color: lightblue;
+            background-color: black;
+
+        }
+        .persdois::before {
+            content:'>';
+            font-weight: normal;
+        }
+        .persdois::after {
+            content: '<';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p><a href="seletores01.html" class="pers">Teste de link</a></p>
+
+    <p><a href="seletores01.html" class="persdois">Outro link</a></p>
+</body>
+</html>
