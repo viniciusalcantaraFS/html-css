@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body, html {
+
+    min-height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+
+header {
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+
+}
+
+header > h1 {
+
+    font-weight: 600;
+    font-size: 3em;
+}
+
+header > p {
+
+    padding-bottom: 50px;
+}
+
+a.links {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.links:hover {
+
+    text-decoration: underline;
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+    padding: 10px;
+
+}
