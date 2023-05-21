@@ -1,9 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
+
+
+  
+
+  :root {
+
+    --fonte1: arial, helvetica, sans-serif;
+    --fonte2: 'Rock Salt, cursive;'
+  }
+
 body, html {
 
     min-height: 100vh;
@@ -13,25 +25,38 @@ body, html {
 } 
 
 
+
+
+
 header {
 
     background-color: black;
     text-align: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 20px;
 
 }
+
+
+
 
 header > h1 {
 
+    font-family: 'Rock Salt';
     font-weight: 600;
-    font-size: 3em;
+    font-size: 2em;
 }
+
+
+
 
 header > p {
 
-    padding-bottom: 50px;
+    padding-bottom: 34px;
 }
+
+
+
 
 a.links {
 
@@ -40,10 +65,86 @@ a.links {
     font-weight: bold;
 }
 
+
+
+
 a.links:hover {
 
     text-decoration: underline;
 }
+
+
+
+
+section.imagem {
+
+    margin: 0px 0px 70px 0px;
+    background-color: rgb(191, 191, 191);
+    padding: 0px 30px 0px 30px;
+    color: white;
+
+}
+
+
+
+
+ h2 {
+
+    background-color: gainsboro ;
+    font-size: 2em;
+    color: black;
+    padding: 30px 30px 30px 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.paragrafoprincipal {
+    
+    margin-bottom: 30px;
+
+}
+
+
+
+
+div.quadro {
+
+    
+    text-align: justify;
+    max-width: 450px;
+    padding: 30px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+
+
+
+.sucessos {
+    
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+
+
+
+ul {
+
+    list-style-position: inside;
+}
+
+
+
 
 footer {
 
@@ -53,6 +154,16 @@ footer {
     position:fixed;
     width: 100%;
     bottom: 0px;
-    padding: 10px;
+    padding: 5px;
+
+}
+
+
+
+
+p.descricoes {
+
+    font-size: 1.5em;
+    padding: 50px 30px 50px 30px;
 
 }
