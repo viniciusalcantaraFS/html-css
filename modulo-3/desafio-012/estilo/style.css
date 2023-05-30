@@ -56,6 +56,26 @@ header > p {
 }
 
 
+a.linksdecontent {
+
+    text-decoration: none;
+    font-weight: bold;  
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 251, 251);
+    border-radius: 3px;
+    padding: 2px;
+
+}
+
+
+a.linksdecontent:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
 
 
 a.links {
@@ -123,7 +143,7 @@ section#img3 {
     background-image: url('../imagens/CBJR.webp');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center right;
+    background-position: center center;
 
 }
  h2 {
@@ -219,4 +239,9 @@ article.padsdescricoes {
     padding-bottom: 15px;
     padding-left: 30px;
 
+}
+
+strong {
+
+    font-weight: ;
 }
